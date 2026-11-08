@@ -229,7 +229,7 @@ def generate_initial_thoughts(question, client, model, breadth=3):
     return thoughts
 
 
-def evaluate_thought(thought, question, client, model):
+def evaluate_thought(thought, question, client, model): 
     system = (
         "You are a math reasoning evaluator. "
         "Score the following partial reasoning on a scale from 0.0 to 1.0. "
